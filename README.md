@@ -1,4 +1,4 @@
-# Brounie Developer Examination
+# PickMe
 
 Photo viewer application that fetches photos from Instagram, using Firebase as storage solution.
 
@@ -69,8 +69,8 @@ Go to localhost:80 and register
 
 ## Author
 
-- **Kevin Aragon** - _pickME_ - (https://github.com/herisho/pickME)
+- **AragonCodes** - _PickMe_ - (https://github.com/aragoncodes/pick-me)
 
 ## Acknowledgments
 
-- Thanks Mau for letting me finish :)
+- Thanks Brounie for let me grow as a Software Developer
