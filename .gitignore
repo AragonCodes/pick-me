@@ -1,0 +1,12 @@
+# Dependency directory
+node_modules
+# Mac's files
+.DS_Store
+#Visual Studio Code Workspace for Project
+.code-workspace
+# Ignore rendered .html by Prepros
+*.html
+# keys.js
+keys.js
+# firebase-admin service account key
+serviceAccountKey.json

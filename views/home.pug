@@ -1,0 +1,22 @@
+extends _layout
+  
+block content
+  include _nav
+
+  #indexWrapper.container-center.section
+    .container-center
+      h4.t-bold Welcome to pick
+      img.margin-all-5(src="/img/logo.png" height="100")
+      h4.t-bold ME  
+
+block additional_scripts
+  script.
+    $(document).ready(function(){  
+      var contacts = {};
+      "#{session.contacts}".split(",").forEach(function(contact) {
+        contacts[contact] = null;
+      });
+      $('.autocomplete').autocomplete({
+        data: contacts,
+      });
+    });

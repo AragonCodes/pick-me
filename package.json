@@ -1,0 +1,26 @@
+{
+  "name": "pickme",
+  "version": "1.0.0",
+  "description": "Photo viewer application that fetches photos from Instagram",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herisho/pickME"
+  },
+  "scripts": {},
+  "author": "kevin@brounie.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "firebase-admin": "^6.4.0",
+    "instagram-node": "^0.5.8",
+    "moment": "^2.22.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
