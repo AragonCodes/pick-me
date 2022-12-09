@@ -11,8 +11,8 @@
   "author": "kevin@brounie.com",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "express-session": "^1.15.6",
     "firebase-admin": "^6.4.0",
     "instagram-node": "^0.5.8",
